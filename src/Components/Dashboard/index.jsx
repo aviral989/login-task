@@ -18,7 +18,6 @@ function Dashboard({
                 setUsers(response.data);
                 setLoading(false);
             } catch (error) {
-                console.error('Error fetching users:', error);
             }
         };
 

@@ -7,7 +7,6 @@ function orgContainer(Component) {
   const router = useRouter();
 
   useEffect(()=>{
-    console.log("router",router.pathname)
     if(localStorage.getItem('auth') !== 'true' && !router.pathname.includes('/signup', '/login') ){
       router.push('/login')
     }

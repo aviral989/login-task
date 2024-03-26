@@ -100,7 +100,6 @@ function Signup({
       renderSeparator={<span className='input-placeholder'>  </span>}
       renderInput={(props) => <input className='input-placeholder' {...props} />}
     /> 
-    {console.log("otpInput",otpInput)}
         {(formSubmitted && !String.length(otpInput) )  && (
               <div className="input-error">
                 *Please enter valid otp 

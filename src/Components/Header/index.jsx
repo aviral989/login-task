@@ -1,12 +1,5 @@
 
 import React from 'react';
-import {
-    SearchOutlined,
-    ShoppingCartOutlined,
-    // LeftOutlined,
-    RightOutlined
-  } from '@ant-design/icons';
-  // import {left} from '../../../media/Images/left.png'
   import Image from 'next/image';
 
 function Header({
