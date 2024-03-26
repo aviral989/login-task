@@ -1,0 +1,33 @@
+.app-container{
+  position: fixed;
+  min-height: 100vh;
+  width: 100%;
+
+  
+  .component-wrapper{
+    height: 100vh;
+    display: flex;
+    overflow-x: auto;
+
+    @media (max-width: 425px) {
+      height: 90vh;
+    }
+    .component-inner-wrapper{
+      padding: 10px 25px;
+      width: 100% !important;
+      overflow-x: auto;
+      margin-bottom: 100px;
+
+
+      @media (max-width: 425px) {
+        padding: 0px 15px;
+      }
+    }
+    .component-inner-wrapper-less-padding{
+      padding: 0px 1px 0px 25px;
+      @media (max-width: 425px) {
+        padding: 0px 10px;
+      }
+    }
+  }
+}
